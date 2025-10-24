@@ -26,7 +26,7 @@ body {
 header {
   display: grid;
   justify-content: center;
-  margin: 80px 14px 80px 58px;
+  margin: 80px 58px;
 }
 
 .header-background {

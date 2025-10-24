@@ -1,6 +1,6 @@
 @media (max-width: 1367px) {
-  .about-container {
-    margin: 0;
+  header {
+    margin: 80px 14px 80px 58px;
   }
 
   .section-container {
