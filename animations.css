@@ -7,7 +7,6 @@
   to {
     transform: translateX(0);
     opacity: 1;
-
   }
 }
 
@@ -20,7 +19,6 @@
   to {
     transform: translateX(0);
     opacity: 1;
-
   }
 }
 
@@ -33,13 +31,3 @@
     transform: translateY(150vh);
   }
 }
-
-/* @keyframes scale-up {
-  from {
-    transform: scale(1);
-  }
-
-  to {
-    transform: scale(1.2);
-  }
-} */

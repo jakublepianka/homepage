@@ -1,10 +1,13 @@
-html, body {
+html,
+body {
   padding: 0;
   margin: 0;
   overflow-x: hidden;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: 'Bebas Neue';
   margin: 0;
 }
@@ -54,7 +57,6 @@ header {
   z-index: -1;
 }
 
-
 main {
   margin: 0px auto 72px;
 }
@@ -62,7 +64,7 @@ main {
 .projects-container {
   display: grid;
   gap: 108px;
-  grid-template-columns: repeat(2, clamp(450px, 40vw ,600px));
+  grid-template-columns: repeat(2, clamp(450px, 40vw, 600px));
   justify-content: center;
 }
 
@@ -83,7 +85,7 @@ footer {
   top: -150vh;
   left: 0;
   bottom: 0;
-  box-shadow: 5px 5px 25px -5px rgb(0,0,0, 0.5);
+  box-shadow: 5px 5px 25px -5px rgb(0, 0, 0, 0.5);
   overflow: hidden;
 }
 

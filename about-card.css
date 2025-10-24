@@ -9,7 +9,7 @@
 
 .personal-image {
   max-width: 568px;
-  box-shadow: 5px 5px 25px -5px rgb(0,0,0, 0.5);
+  box-shadow: 5px 5px 25px -5px rgb(0, 0, 0, 0.5);
   vertical-align: bottom;
 }
 
@@ -23,7 +23,7 @@
   position: relative;
   background-color: rgb(204, 201, 220);
   padding: 2rem 4rem 5rem;
-  box-shadow: 5px 5px 25px -5px rgb(0,0,0, 0.5);
+  box-shadow: 5px 5px 25px -5px rgb(0, 0, 0, 0.5);
   animation: slide-in-left 1s 0.5s ease-out backwards;
 }
 
@@ -49,12 +49,12 @@
   bottom: 1.7rem;
 }
 
-.social-media-container > .social-icon {
+.social-media-container>.social-icon {
   width: 32px;
   transition: transform 0.2s ease-out;
 }
 
-.social-media-container > .social-icon:hover {
+.social-media-container>.social-icon:hover {
   cursor: pointer;
   transform: scale(1.3);
 }
