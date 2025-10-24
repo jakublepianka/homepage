@@ -4,7 +4,7 @@
   max-width: 1500px;
   margin-bottom: 72px;
   padding: 36px 72px 28px 58px;
-  box-shadow: 5px 5px 25px -5px rgb(0,0,0, 0.5)
+  box-shadow: 5px 5px 25px -5px rgb(0, 0, 0, 0.5)
 }
 
 .contact-info-container {
@@ -24,12 +24,13 @@
   padding-bottom: 0.5rem;
 }
 
-.contact-info-list, .contact-item {
+.contact-info-list,
+.contact-item {
   list-style: none;
   padding: 0;
 }
 
-.contact-item > svg {
+.contact-item>svg {
   padding-right: 0.5rem;
 }
 
