@@ -1,0 +1,85 @@
+.project-card {
+  display: grid;
+  background-color: rgb(12, 24, 33);
+  box-shadow: 5px 5px 25px -5px rgb(0,0,0, 0.5);
+
+}
+
+.project-card:nth-child(even) {
+  animation: slide-in-left 1s 1s ease-out backwards;
+}
+
+.project-card:nth-child(odd) {
+  animation: slide-in-right 1s 1s ease-out backwards;
+}
+
+
+.image-container {
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.project-image {
+  max-width: 100%;
+  transform: scale(1);
+}
+.image-container > .project-image:hover {
+  transform: scale(1.2);
+  transition: transform 4s linear;
+}
+
+.image-icons {
+  box-sizing: border-box;
+  position: absolute;
+  display: flex;
+  gap: 0.6rem;
+  padding: 0.7rem 0.7rem 0.8rem;
+  border-radius: 0 0 0.5rem 0.5rem;
+  right: 0.5rem;
+  background-color: rgb(0,0,0);
+  z-index: 2;
+}
+
+.image-icons > img, .image-icons > svg {
+  width: 24px;
+  filter: invert(92%) sepia(8%) saturate(986%) hue-rotate(199deg) brightness(90%) contrast(91%);
+  transition: transform 0.2s ease-out ;
+}
+
+.image-icons > svg {
+  width: 28px;
+}
+
+.image-icons > img:hover,
+.image-icons > svg:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.section-container {
+  flex: 1;
+  padding: 2.5rem 2rem 2.5rem;
+}
+
+.project-name {
+  font-size: xx-large;
+  letter-spacing: 0.3rem;
+  text-align: center;
+  
+  width: 100%;
+  border-top: 2px solid rgb(204, 201, 220);
+  line-height: 0.1em;
+}
+
+.project-name > span {
+  background-color: rgb(12, 24, 33);
+  padding: 0 15px 0 calc(15px + 0.3rem);
+}
+
+.project-card p {
+  padding-top: 2rem;
+  font-size: larger;
+  font-weight: 500;
+  line-height: 1.8rem;
+}

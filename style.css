@@ -1,0 +1,95 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+h1, h2, h3 {
+  font-family: 'Bebas Neue';
+  margin: 0;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(27, 42, 65);
+  color: rgb(204, 201, 220);
+  font-family: 'Quicksand';
+}
+
+header {
+  display: grid;
+  justify-content: center;
+  margin: 80px 14px 80px 58px;
+}
+
+.header-background {
+  position: absolute;
+  background-image: url("./assets/mountains2.webp");
+  background-position: bottom;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 30vw;
+  min-height: 700px;
+  max-height: 800px;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.background-slant {
+  position: absolute;
+  content: "";
+  background-color: rgb(27, 42, 65);
+  height: 700px;
+  top: 0;
+  left: 0;
+  right: 0;
+  transform: skew(0deg, 5deg) translateY(clamp(500px, 30vw, 800px));
+  transform-origin: bottom right;
+  z-index: -1;
+}
+
+
+main {
+  margin: 0px auto 72px;
+}
+
+.projects-container {
+  display: grid;
+  gap: 108px;
+  grid-template-columns: repeat(2, clamp(450px, 40vw ,600px));
+  justify-content: center;
+}
+
+footer {
+  display: grid;
+  justify-items: center;
+  margin: 0 58px;
+}
+
+.carousel-container svg {
+  width: 24px;
+}
+
+.carousel-container {
+  position: fixed;
+  background-color: rgb(12, 24, 33);
+  width: 42px;
+  top: -150vh;
+  left: 0;
+  bottom: 0;
+  box-shadow: 5px 5px 25px -5px rgb(0,0,0, 0.5);
+  overflow: hidden;
+}
+
+.carousel {
+  height: 300vh;
+  display: grid;
+  justify-content: center;
+  animation: slide 40s linear infinite;
+}

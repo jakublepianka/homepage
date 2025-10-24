@@ -1,0 +1,44 @@
+.contact-container {
+  box-sizing: border-box;
+  background-color: rgb(12, 24, 33);
+  max-width: 1500px;
+  margin-bottom: 72px;
+  padding: 36px 72px 28px 58px;
+  box-shadow: 5px 5px 25px -5px rgb(0,0,0, 0.5)
+}
+
+.contact-info-container {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.text-container {
+  padding: 0.2rem 3rem 0;
+}
+
+.contact-title {
+  letter-spacing: 0.3rem;
+  font-size: xx-large;
+  text-align: center;
+  text-indent: 0.3rem;
+  padding-bottom: 0.5rem;
+}
+
+.contact-info-list, .contact-item {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-item > svg {
+  padding-right: 0.5rem;
+}
+
+.contact-item {
+  display: flex;
+  padding-bottom: 0.8rem;
+}
+
+.contact-icon {
+  width: 24px;
+  filter: invert(92%) sepia(8%) saturate(986%) hue-rotate(199deg) brightness(90%) contrast(91%);
+}

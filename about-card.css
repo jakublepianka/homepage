@@ -1,0 +1,60 @@
+.about-container {
+  display: flex;
+  color: rgb(12, 24, 33);
+}
+
+.personal-image-container {
+  animation: slide-in-right 1s 0.5s ease-out backwards;
+}
+
+.personal-image {
+  max-width: 568px;
+  box-shadow: 5px 5px 25px -5px rgb(0,0,0, 0.5);
+  vertical-align: bottom;
+}
+
+.personal-section-container {
+  display: grid;
+  align-items: center;
+  max-width: 900px;
+}
+
+.personal-section {
+  position: relative;
+  background-color: rgb(204, 201, 220);
+  padding: 2rem 4rem 5rem;
+  box-shadow: 5px 5px 25px -5px rgb(0,0,0, 0.5);
+  animation: slide-in-left 1s 0.5s ease-out backwards;
+}
+
+.personal-title {
+  font-size: 3.2rem;
+  letter-spacing: 0.7rem;
+  text-indent: 0.7rem;
+  text-align: center;
+  padding-bottom: 0.5rem;
+}
+
+.about-container p {
+  font-size: x-large;
+  font-weight: 500;
+  line-height: 1.8rem;
+}
+
+.social-media-container {
+  position: absolute;
+  display: flex;
+  gap: 1.5rem;
+  right: 2rem;
+  bottom: 1.7rem;
+}
+
+.social-media-container > .social-icon {
+  width: 32px;
+  transition: transform 0.2s ease-out;
+}
+
+.social-media-container > .social-icon:hover {
+  cursor: pointer;
+  transform: scale(1.3);
+}
